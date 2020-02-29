@@ -1,0 +1,185 @@
+@import "./fonts.css";
+
+html {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background-color: white;
+}
+
+h2,
+h3 {
+  font-weight: 900;
+  color: #666d89;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p{
+  color: #767e9e;
+}
+
+.portfolio p {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.wrapper {
+  width: 1020px;
+  padding: 0 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: #767e9e;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.portfolio {
+  padding-top: 34px;
+  padding-bottom: 53px;
+  height: 777px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.portfolio__tags {
+  margin: 10px 0 19px;
+  padding-left: 1px;
+  padding-bottom: 0;
+}
+
+.portfolio__tags .tag {
+  padding: 4px 7px 4px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.11px;
+  color: #666d89;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+}
+
+.portfolio__tags .tag:last-child {
+  padding-right: 4px;
+}
+
+.portfolio__tags .tag:hover {
+  color: #dedede;
+  border-color: #dedede;
+}
+
+.portfolio__tags .tag:not(:first-child) {
+  margin-left: 6px;
+}
+
+.portfolio__tags .tag.selected {
+  color: #dedede;
+  border-color: #dedede;
+  cursor: default;
+}
+
+.portfolio__pictures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 601px;
+  overflow: hidden;
+}
+
+.portfolio__picture {
+  margin-bottom: 20px;
+}
+
+.portfolio__picture:nth-child(n+9) {
+  margin-bottom: 0;
+}
+
+.about-us {
+  padding-top: 34px;
+  padding-bottom: 67px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.about-us p {
+  margin-top: -8px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.layout-3-column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+
+.about-us__employee {
+  width: 300px;
+}
+
+.about-us__employee h3 {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.about-us .about-us__employee p {
+  margin-top: 8px;
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.about-us .about-us__employee:nth-child(n+2) p {
+  letter-spacing: 0.1px;
+}
+
+.about-us .about-us__employee:nth-child(2) .about-us__employee-photo {
+  margin-left: -1px;
+}
+
+.social-media .icon {
+  width: 32px;
+  height: 32px;
+  padding-right: 4px;
+  padding-left: 1px;
+}
+
+.about-us__employee:nth-child(n+2) .social-media {
+  margin-left: -1px;
+}
