@@ -1,1 +1,1 @@
-https://Layksi.github.io/Singolo/
+https://layksi.github.io/singolo/
